@@ -1,23 +1,112 @@
-# 📋 CAHIER DES CHARGES COMPLET - TAB TRACKER PRO
+# Tab Tracker Pro 📑
 
-## 🎯 1. VISION ET OBJECTIFS DU PROJET
+A modern Chrome extension for intelligent tab management, built with React + TypeScript and featuring a sleek ChatGPT-inspired design.
 
-### 1.1 Vision Globale
+![Version](https://img.shields.io/badge/version-2.0.0-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Chrome](https://img.shields.io/badge/chrome-extension-yellow)
 
-**Tab Tracker Pro** est une extension Chrome révolutionnaire qui transforme la gestion des onglets en une expérience intelligente et collaborative. L'objectif est de créer une plateforme complète de navigation qui optimise la productivité, facilite la collaboration et introduit des fonctionnalités innovantes basées sur l'IA.
+## ✨ Features
 
-### 1.2 Objectifs Stratégiques
+- 🔍 **Smart Search**: Find tabs instantly across titles, URLs, and domains
+- ⭐ **Favorites System**: Mark and quickly access your most-used tabs
+- 📊 **Visit Tracking**: See how often you visit each tab
+- 🎨 **Modern UI**: Beautiful ChatGPT-inspired dark theme
+- 🔄 **Real-time Updates**: Live tracking of all browser tabs
+- 📦 **Export/Import**: Backup and restore your tab data
+- 🎯 **Smart Filters**: View all tabs, favorites, or recent (last 24h)
 
-- **Productivité** : Optimiser la gestion des onglets pour améliorer l'efficacité de navigation
-- **Collaboration** : Permettre le partage et la collaboration en temps réel sur des sessions de navigation
-- **Intelligence** : Intégrer l'IA pour des suggestions et automatisations intelligentes
-- **Monétisation** : Créer un modèle économique viable avec plusieurs sources de revenus
+## 🚀 Quick Start
 
-### 1.3 Positionnement Concurrentiel
+### Installation
 
-- **Différenciation** : Seule extension avec collaboration temps réel et IA intégrée
-- **Avantage Concurrentiel** : Fonctionnalités uniques (TabSpaces, TabControl, TabStream)
-- **Marché Cible** : Professionnels, équipes, éducateurs, streamers
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Luxus-Tempest/Flex-nav.git
+   cd Flex-nav
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Build the extension**
+   ```bash
+   npm run build
+   ```
+
+4. **Load in Chrome**
+   - Open Chrome and go to `chrome://extensions/`
+   - Enable "Developer mode"
+   - Click "Load unpacked"
+   - Select the `dist` folder
+
+See [INSTALLATION.md](./INSTALLATION.md) for detailed instructions.
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React 18, TypeScript
+- **Build**: Vite
+- **Styling**: Tailwind CSS
+- **APIs**: Chrome Extension Manifest V3
+
+## 📖 Documentation
+
+- [Installation Guide](./INSTALLATION.md) - Step-by-step installation instructions
+- [Development Guide](./DEVELOPMENT.md) - Architecture and development workflow
+- [Complete Specification](./CAHIER-DES-CHARGES-COMPLET.md) - Full project roadmap (French)
+
+## 🎯 Future Features
+
+This is just the beginning! Check out the [complete roadmap](./CAHIER-DES-CHARGES-COMPLET.md) for upcoming features:
+
+- 🌐 **TabSpaces**: Collaborative browsing spaces
+- 🎮 **TabControl**: Remote tab control for support
+- 📺 **TabStream**: Stream your browsing sessions
+- 🤖 **AI Features**: Smart suggestions and automation
+- 🎮 **Gamification**: Achievements and productivity tracking
+
+## 📊 Project Structure
+
+```
+Flex-nav/
+├── src/
+│   ├── popup/          # Extension popup UI
+│   ├── background/     # Background service worker
+│   ├── content/        # Content scripts
+│   └── shared/         # Shared utilities and types
+├── public/             # Static assets and manifest
+└── dist/              # Built extension (generated)
+```
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📝 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🙏 Acknowledgments
+
+- Inspired by ChatGPT's beautiful UI design
+- Built with modern web technologies
+- Part of the Flex-nav project ecosystem
+
+## 📧 Contact
+
+For questions, feedback, or support, please [open an issue](https://github.com/Luxus-Tempest/Flex-nav/issues).
+
+---
+
+**Tab Tracker Pro** - Transform your browsing experience! 🚀✨
 
 ## 🏗️ 2. ARCHITECTURE TECHNIQUE
 
